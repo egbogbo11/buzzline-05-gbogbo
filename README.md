@@ -210,6 +210,46 @@ python3 -m consumers.duckdb_consumer_case.py
 
 ---
 
+## Elom's Custom Category Organization Consumer
+
+The `consumer_gbogbo.py` module implements a specialized consumer that organizes streaming messages by category and provides real-time analytics across different topic categories. This enables efficient category-based querying and insights into topic popularity and sentiment trends.
+
+### What it does:
+- Reads messages from the live data file (`project_live.json`)
+- Automatically creates separate database tables for each message category
+- Routes each message to both a master table and its category-specific table
+- Maintains real-time analytics and statistics for each category
+- Provides category insights every 10 processed messages
+
+### What it stores for each message:
+- **Master table (`all_messages`)**: Complete message data with category indexing
+- **Category tables** (e.g., `category_tech`, `category_humor`): Messages filtered by specific categories
+- **Analytics table (`category_stats`)**: Real-time statistics including message counts, average sentiment, and last update timestamps
+- **Indexed fields**: Category, timestamp, and sentiment for efficient querying
+
+### Category-specific insights tracked:
+- Message count per category
+- Average sentiment score by category  
+- Unique author count per category
+- Latest message timestamp per category
+- Cross-category trend analysis
+
+### Why this is valuable:
+This categorization system enables rapid filtering and analysis of messages by topic, making it easy to identify which categories have the most activity, highest sentiment, or most engaged authors. It's particularly useful for content moderation, trend analysis, and targeted analytics in streaming applications.
+
+### JSON attributes used:
+`message`, `author`, `timestamp`, `category`, `sentiment`, `keyword_mentioned`, `message_length`
+
+### Running the Consumer:
+```bash
+# Windows
+.\.venv\Scripts\Activate.ps1
+py -m consumers.consumer_gbogbo
+
+# Mac/Linux
+source .venv/bin/activate
+python3 -m consumers.consumer_gbogbo
+```
 ## Review the Project Code
 
 Review the requirements.txt file. 
