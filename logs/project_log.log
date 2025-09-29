@@ -1,137 +1,405 @@
-2025-09-28 19:50:55 | INFO | {'message': 'I just tried game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:50:55', 'category': 'gaming', 'sentiment': 0.15, 'keyword_mentioned': 'game', 'message_length': 35}
-2025-09-28 19:51:00 | INFO | {'message': 'I just loved an app! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:51:00', 'category': 'other', 'sentiment': 0.04, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:51:05 | INFO | {'message': 'I just saw a trick! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:51:05', 'category': 'other', 'sentiment': 0.74, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:51:10 | INFO | {'message': 'I just loved Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 19:51:10', 'category': 'tech', 'sentiment': 0.91, 'keyword_mentioned': 'Python', 'message_length': 36}
-2025-09-28 19:51:15 | INFO | {'message': 'I just shared a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:51:15', 'category': 'entertainment', 'sentiment': 0.47, 'keyword_mentioned': 'movie', 'message_length': 37}
-2025-09-28 19:51:20 | INFO | {'message': 'I just shared a movie! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:51:20', 'category': 'entertainment', 'sentiment': 0.67, 'keyword_mentioned': 'movie', 'message_length': 37}
-2025-09-28 19:51:25 | INFO | {'message': 'I just saw a meme! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 19:51:25', 'category': 'humor', 'sentiment': 0.58, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-28 19:51:30 | INFO | {'message': 'I just tried Python! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:51:30', 'category': 'tech', 'sentiment': 0.3, 'keyword_mentioned': 'Python', 'message_length': 34}
-2025-09-28 19:51:35 | INFO | {'message': 'I just shared an app! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:51:35', 'category': 'other', 'sentiment': 0.15, 'keyword_mentioned': 'other', 'message_length': 38}
-2025-09-28 19:51:40 | INFO | {'message': 'I just saw recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 19:51:40', 'category': 'food', 'sentiment': 0.46, 'keyword_mentioned': 'recipe', 'message_length': 32}
-2025-09-28 19:51:45 | INFO | {'message': 'I just tried a trick! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:51:45', 'category': 'other', 'sentiment': 0.32, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:51:50 | INFO | {'message': 'I just found a trick! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:51:50', 'category': 'other', 'sentiment': 0.77, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:51:55 | INFO | {'message': 'I just found a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 19:51:55', 'category': 'humor', 'sentiment': 0.23, 'keyword_mentioned': 'meme', 'message_length': 37}
-2025-09-28 19:52:00 | INFO | {'message': 'I just shared JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:00', 'category': 'tech', 'sentiment': 0.52, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
-2025-09-28 19:52:05 | INFO | {'message': 'I just found travel! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:05', 'category': 'travel', 'sentiment': 0.9, 'keyword_mentioned': 'travel', 'message_length': 35}
-2025-09-28 19:52:10 | INFO | {'message': 'I just loved an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:52:10', 'category': 'other', 'sentiment': 0.96, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:52:15 | INFO | {'message': 'I just loved Python! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 19:52:15', 'category': 'tech', 'sentiment': 0.95, 'keyword_mentioned': 'Python', 'message_length': 35}
-2025-09-28 19:52:20 | INFO | {'message': 'I just tried travel! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 19:52:20', 'category': 'travel', 'sentiment': 0.68, 'keyword_mentioned': 'travel', 'message_length': 36}
-2025-09-28 19:52:25 | INFO | {'message': 'I just shared game! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:25', 'category': 'gaming', 'sentiment': 0.7, 'keyword_mentioned': 'game', 'message_length': 34}
-2025-09-28 19:52:30 | INFO | {'message': 'I just saw Python! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:30', 'category': 'tech', 'sentiment': 0.08, 'keyword_mentioned': 'Python', 'message_length': 34}
-2025-09-28 19:52:35 | INFO | {'message': 'I just found a story! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:35', 'category': 'other', 'sentiment': 0.69, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:52:40 | INFO | {'message': 'I just found travel! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:52:40', 'category': 'travel', 'sentiment': 0.14, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-28 19:52:45 | INFO | {'message': 'I just shared recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:52:45', 'category': 'food', 'sentiment': 0.4, 'keyword_mentioned': 'recipe', 'message_length': 38}
-2025-09-28 19:52:50 | INFO | {'message': 'I just saw a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:50', 'category': 'other', 'sentiment': 0.13, 'keyword_mentioned': 'other', 'message_length': 33}
-2025-09-28 19:52:55 | INFO | {'message': 'I just tried game! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 19:52:55', 'category': 'gaming', 'sentiment': 0.45, 'keyword_mentioned': 'game', 'message_length': 32}
-2025-09-28 19:53:00 | INFO | {'message': 'I just loved a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:53:00', 'category': 'humor', 'sentiment': 0.02, 'keyword_mentioned': 'meme', 'message_length': 35}
-2025-09-28 19:53:05 | INFO | {'message': 'I just saw a trick! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 19:53:05', 'category': 'other', 'sentiment': 0.97, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:53:10 | INFO | {'message': 'I just saw an app! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:53:10', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 33}
-2025-09-28 19:53:15 | INFO | {'message': 'I just saw JavaScript! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 19:53:15', 'category': 'tech', 'sentiment': 0.73, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
-2025-09-28 19:53:20 | INFO | {'message': 'I just found game! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:53:20', 'category': 'gaming', 'sentiment': 0.68, 'keyword_mentioned': 'game', 'message_length': 32}
-2025-09-28 19:53:25 | INFO | {'message': 'I just found travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 19:53:25', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-28 19:53:30 | INFO | {'message': 'I just found a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:53:30', 'category': 'entertainment', 'sentiment': 0.48, 'keyword_mentioned': 'movie', 'message_length': 36}
-2025-09-28 19:53:35 | INFO | {'message': 'I just loved JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 19:53:35', 'category': 'tech', 'sentiment': 0.71, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
-2025-09-28 19:53:40 | INFO | {'message': 'I just shared JavaScript! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:53:40', 'category': 'tech', 'sentiment': 0.59, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
-2025-09-28 19:53:45 | INFO | {'message': 'I just loved recipe! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:53:45', 'category': 'food', 'sentiment': 0.19, 'keyword_mentioned': 'recipe', 'message_length': 36}
-2025-09-28 19:53:50 | INFO | {'message': 'I just loved Python! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:53:50', 'category': 'tech', 'sentiment': 0.45, 'keyword_mentioned': 'Python', 'message_length': 34}
-2025-09-28 19:53:55 | INFO | {'message': 'I just tried an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:53:55', 'category': 'other', 'sentiment': 0.32, 'keyword_mentioned': 'other', 'message_length': 34}
-2025-09-28 19:54:00 | INFO | {'message': 'I just shared travel! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 19:54:00', 'category': 'travel', 'sentiment': 0.62, 'keyword_mentioned': 'travel', 'message_length': 38}
-2025-09-28 19:54:05 | INFO | {'message': 'I just loved game! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:54:05', 'category': 'gaming', 'sentiment': 0.43, 'keyword_mentioned': 'game', 'message_length': 34}
-2025-09-28 19:54:10 | INFO | {'message': 'I just found Python! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:54:10', 'category': 'tech', 'sentiment': 0.57, 'keyword_mentioned': 'Python', 'message_length': 37}
-2025-09-28 19:54:15 | INFO | {'message': 'I just saw a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:54:15', 'category': 'other', 'sentiment': 0.07, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:54:20 | INFO | {'message': 'I just shared game! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:54:20', 'category': 'gaming', 'sentiment': 0.59, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-28 19:54:25 | INFO | {'message': 'I just found JavaScript! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 19:54:25', 'category': 'tech', 'sentiment': 0.83, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
-2025-09-28 19:54:30 | INFO | {'message': 'I just loved Python! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 19:54:30', 'category': 'tech', 'sentiment': 0.79, 'keyword_mentioned': 'Python', 'message_length': 37}
-2025-09-28 19:54:35 | INFO | {'message': 'I just loved recipe! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:54:35', 'category': 'food', 'sentiment': 0.81, 'keyword_mentioned': 'recipe', 'message_length': 35}
-2025-09-28 19:54:40 | INFO | {'message': 'I just loved a story! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:54:40', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:54:45 | INFO | {'message': 'I just saw game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 19:54:45', 'category': 'gaming', 'sentiment': 0.6, 'keyword_mentioned': 'game', 'message_length': 32}
-2025-09-28 19:54:50 | INFO | {'message': 'I just shared a trick! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 19:54:50', 'category': 'other', 'sentiment': 0.25, 'keyword_mentioned': 'other', 'message_length': 39}
-2025-09-28 19:54:55 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 19:54:55', 'category': 'humor', 'sentiment': 0.84, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-28 19:55:00 | INFO | {'message': 'I just tried Python! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:55:00', 'category': 'tech', 'sentiment': 0.58, 'keyword_mentioned': 'Python', 'message_length': 34}
-2025-09-28 19:55:05 | INFO | {'message': 'I just saw JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:55:05', 'category': 'tech', 'sentiment': 0.29, 'keyword_mentioned': 'JavaScript', 'message_length': 36}
-2025-09-28 19:55:10 | INFO | {'message': 'I just shared game! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:55:10', 'category': 'gaming', 'sentiment': 0.75, 'keyword_mentioned': 'game', 'message_length': 35}
-2025-09-28 19:55:15 | INFO | {'message': 'I just found travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:55:15', 'category': 'travel', 'sentiment': 0.45, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-28 19:55:20 | INFO | {'message': 'I just found a story! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:55:20', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:55:25 | INFO | {'message': 'I just tried a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:55:25', 'category': 'humor', 'sentiment': 0.1, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-28 19:55:30 | INFO | {'message': 'I just saw a movie! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:55:30', 'category': 'entertainment', 'sentiment': 0.54, 'keyword_mentioned': 'movie', 'message_length': 33}
-2025-09-28 19:55:35 | INFO | {'message': 'I just loved a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 19:55:35', 'category': 'entertainment', 'sentiment': 0.4, 'keyword_mentioned': 'movie', 'message_length': 35}
-2025-09-28 19:55:40 | INFO | {'message': 'I just tried Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:55:40', 'category': 'tech', 'sentiment': 0.25, 'keyword_mentioned': 'Python', 'message_length': 35}
-2025-09-28 19:55:45 | INFO | {'message': 'I just shared a movie! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:55:45', 'category': 'entertainment', 'sentiment': 0.37, 'keyword_mentioned': 'movie', 'message_length': 36}
-2025-09-28 19:55:50 | INFO | {'message': 'I just shared JavaScript! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:55:50', 'category': 'tech', 'sentiment': 0.42, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
-2025-09-28 19:55:55 | INFO | {'message': 'I just found recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:55:55', 'category': 'food', 'sentiment': 0.19, 'keyword_mentioned': 'recipe', 'message_length': 37}
-2025-09-28 19:56:00 | INFO | {'message': 'I just saw JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:56:00', 'category': 'tech', 'sentiment': 0.38, 'keyword_mentioned': 'JavaScript', 'message_length': 37}
-2025-09-28 19:56:05 | INFO | {'message': 'I just loved travel! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 19:56:05', 'category': 'travel', 'sentiment': 0.53, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-28 19:56:10 | INFO | {'message': 'I just shared game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:56:10', 'category': 'gaming', 'sentiment': 0.21, 'keyword_mentioned': 'game', 'message_length': 34}
-2025-09-28 19:56:15 | INFO | {'message': 'I just saw a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 19:56:15', 'category': 'other', 'sentiment': 0.45, 'keyword_mentioned': 'other', 'message_length': 33}
-2025-09-28 19:56:20 | INFO | {'message': 'I just loved recipe! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 19:56:20', 'category': 'food', 'sentiment': 0.21, 'keyword_mentioned': 'recipe', 'message_length': 37}
-2025-09-28 19:56:25 | INFO | {'message': 'I just saw a meme! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:56:25', 'category': 'humor', 'sentiment': 0.5, 'keyword_mentioned': 'meme', 'message_length': 32}
-2025-09-28 19:56:30 | INFO | {'message': 'I just found a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:56:30', 'category': 'humor', 'sentiment': 0.21, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-28 19:56:35 | INFO | {'message': 'I just shared a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:56:35', 'category': 'humor', 'sentiment': 0.53, 'keyword_mentioned': 'meme', 'message_length': 36}
-2025-09-28 19:56:40 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:56:40', 'category': 'entertainment', 'sentiment': 0.41, 'keyword_mentioned': 'movie', 'message_length': 35}
-2025-09-28 19:56:45 | INFO | {'message': 'I just loved travel! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 19:56:45', 'category': 'travel', 'sentiment': 0.54, 'keyword_mentioned': 'travel', 'message_length': 37}
-2025-09-28 19:56:50 | INFO | {'message': 'I just shared recipe! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:56:50', 'category': 'food', 'sentiment': 0.34, 'keyword_mentioned': 'recipe', 'message_length': 35}
-2025-09-28 19:56:55 | INFO | {'message': 'I just tried JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 19:56:55', 'category': 'tech', 'sentiment': 0.3, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
-2025-09-28 19:57:00 | INFO | {'message': 'I just saw a story! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:57:00', 'category': 'other', 'sentiment': 0.17, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:57:05 | INFO | {'message': 'I just shared recipe! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:57:05', 'category': 'food', 'sentiment': 0.23, 'keyword_mentioned': 'recipe', 'message_length': 37}
-2025-09-28 19:57:10 | INFO | {'message': 'I just loved a movie! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:57:10', 'category': 'entertainment', 'sentiment': 0.92, 'keyword_mentioned': 'movie', 'message_length': 37}
-2025-09-28 19:57:15 | INFO | {'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 19:57:15', 'category': 'other', 'sentiment': 0.54, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:57:20 | INFO | {'message': 'I just loved a story! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 19:57:20', 'category': 'other', 'sentiment': 0.49, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:57:25 | INFO | {'message': 'I just loved a movie! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:57:25', 'category': 'entertainment', 'sentiment': 0.73, 'keyword_mentioned': 'movie', 'message_length': 38}
-2025-09-28 19:57:30 | INFO | {'message': 'I just tried recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 19:57:30', 'category': 'food', 'sentiment': 0.21, 'keyword_mentioned': 'recipe', 'message_length': 34}
-2025-09-28 19:57:35 | INFO | {'message': 'I just loved a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:57:35', 'category': 'humor', 'sentiment': 0.43, 'keyword_mentioned': 'meme', 'message_length': 35}
-2025-09-28 19:57:40 | INFO | {'message': 'I just shared a trick! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:57:40', 'category': 'other', 'sentiment': 0.3, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-28 19:57:45 | INFO | {'message': 'I just found a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 19:57:45', 'category': 'humor', 'sentiment': 0.06, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-28 19:57:50 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:57:50', 'category': 'other', 'sentiment': 0.49, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-28 19:57:55 | INFO | {'message': 'I just found travel! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:57:55', 'category': 'travel', 'sentiment': 0.59, 'keyword_mentioned': 'travel', 'message_length': 36}
-2025-09-28 19:58:00 | INFO | {'message': 'I just saw a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:58:00', 'category': 'humor', 'sentiment': 0.34, 'keyword_mentioned': 'meme', 'message_length': 33}
-2025-09-28 19:58:05 | INFO | {'message': 'I just tried travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 19:58:05', 'category': 'travel', 'sentiment': 0.4, 'keyword_mentioned': 'travel', 'message_length': 35}
-2025-09-28 19:58:10 | INFO | {'message': 'I just found a story! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 19:58:10', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:58:15 | INFO | {'message': 'I just shared a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 19:58:15', 'category': 'entertainment', 'sentiment': 0.51, 'keyword_mentioned': 'movie', 'message_length': 38}
-2025-09-28 19:58:20 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:58:20', 'category': 'other', 'sentiment': 0.72, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-28 19:58:25 | INFO | {'message': 'I just loved a trick! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 19:58:25', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:58:30 | INFO | {'message': 'I just saw an app! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 19:58:30', 'category': 'other', 'sentiment': 0.46, 'keyword_mentioned': 'other', 'message_length': 32}
-2025-09-28 19:58:35 | INFO | {'message': 'I just found a movie! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 19:58:35', 'category': 'entertainment', 'sentiment': 0.7, 'keyword_mentioned': 'movie', 'message_length': 36}
-2025-09-28 19:58:40 | INFO | {'message': 'I just tried a trick! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 19:58:40', 'category': 'other', 'sentiment': 0.32, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:58:45 | INFO | {'message': 'I just found Python! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 19:58:45', 'category': 'tech', 'sentiment': 0.26, 'keyword_mentioned': 'Python', 'message_length': 37}
-2025-09-28 19:58:50 | INFO | {'message': 'I just tried an app! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:58:50', 'category': 'other', 'sentiment': 0.65, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:58:55 | INFO | {'message': 'I just shared an app! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 19:58:55', 'category': 'other', 'sentiment': 0.95, 'keyword_mentioned': 'other', 'message_length': 38}
-2025-09-28 19:59:00 | INFO | {'message': 'I just saw a trick! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:59:00', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:59:05 | INFO | {'message': 'I just loved Python! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 19:59:05', 'category': 'tech', 'sentiment': 0.45, 'keyword_mentioned': 'Python', 'message_length': 35}
-2025-09-28 19:59:10 | INFO | {'message': 'I just loved recipe! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:59:10', 'category': 'food', 'sentiment': 0.37, 'keyword_mentioned': 'recipe', 'message_length': 35}
-2025-09-28 19:59:15 | INFO | {'message': 'I just found a story! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 19:59:15', 'category': 'other', 'sentiment': 0.8, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:59:20 | INFO | {'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 19:59:20', 'category': 'other', 'sentiment': 0.51, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 19:59:25 | INFO | {'message': 'I just tried a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:59:25', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 19:59:30 | INFO | {'message': 'I just shared a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 19:59:30', 'category': 'other', 'sentiment': 0.74, 'keyword_mentioned': 'other', 'message_length': 38}
-2025-09-28 19:59:35 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 19:59:35', 'category': 'entertainment', 'sentiment': 0.94, 'keyword_mentioned': 'movie', 'message_length': 38}
-2025-09-28 19:59:40 | INFO | {'message': 'I just loved an app! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 19:59:40', 'category': 'other', 'sentiment': 0.61, 'keyword_mentioned': 'other', 'message_length': 34}
-2025-09-28 19:59:45 | INFO | {'message': 'I just saw Python! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 19:59:45', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'Python', 'message_length': 33}
-2025-09-28 19:59:50 | INFO | {'message': 'I just tried a movie! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 19:59:50', 'category': 'entertainment', 'sentiment': 0.45, 'keyword_mentioned': 'movie', 'message_length': 37}
-2025-09-28 19:59:55 | INFO | {'message': 'I just tried a trick! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 19:59:55', 'category': 'other', 'sentiment': 0.64, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-28 20:00:00 | INFO | {'message': 'I just shared Python! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 20:00:00', 'category': 'tech', 'sentiment': 0.51, 'keyword_mentioned': 'Python', 'message_length': 35}
-2025-09-28 20:00:05 | INFO | {'message': 'I just tried JavaScript! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 20:00:05', 'category': 'tech', 'sentiment': 0.37, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
-2025-09-28 20:00:10 | INFO | {'message': 'I just saw game! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 20:00:10', 'category': 'gaming', 'sentiment': 0.63, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-28 20:00:15 | INFO | {'message': 'I just found travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 20:00:15', 'category': 'travel', 'sentiment': 0.11, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-28 20:00:20 | INFO | {'message': 'I just loved a story! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 20:00:20', 'category': 'other', 'sentiment': 0.6, 'keyword_mentioned': 'other', 'message_length': 38}
-2025-09-28 20:00:25 | INFO | {'message': 'I just loved a story! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 20:00:25', 'category': 'other', 'sentiment': 0.11, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 20:00:30 | INFO | {'message': 'I just found a trick! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:00:30', 'category': 'other', 'sentiment': 0.27, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 20:00:35 | INFO | {'message': 'I just found game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 20:00:35', 'category': 'gaming', 'sentiment': 0.73, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-28 20:00:40 | INFO | {'message': 'I just saw JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 20:00:40', 'category': 'tech', 'sentiment': 0.24, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
-2025-09-28 20:00:45 | INFO | {'message': 'I just saw an app! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 20:00:45', 'category': 'other', 'sentiment': 0.65, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 20:00:50 | INFO | {'message': 'I just saw travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 20:00:50', 'category': 'travel', 'sentiment': 0.28, 'keyword_mentioned': 'travel', 'message_length': 32}
-2025-09-28 20:00:55 | INFO | {'message': 'I just saw game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:00:55', 'category': 'gaming', 'sentiment': 0.08, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-28 20:01:00 | INFO | {'message': 'I just loved travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 20:01:00', 'category': 'travel', 'sentiment': 0.24, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-28 20:01:05 | INFO | {'message': 'I just found recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 20:01:05', 'category': 'food', 'sentiment': 1.0, 'keyword_mentioned': 'recipe', 'message_length': 37}
-2025-09-28 20:01:10 | INFO | {'message': 'I just found a story! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 20:01:10', 'category': 'other', 'sentiment': 0.79, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 20:01:15 | INFO | {'message': 'I just saw recipe! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:01:15', 'category': 'food', 'sentiment': 0.6, 'keyword_mentioned': 'recipe', 'message_length': 33}
-2025-09-28 20:01:20 | INFO | {'message': 'I just shared Python! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:01:20', 'category': 'tech', 'sentiment': 0.48, 'keyword_mentioned': 'Python', 'message_length': 35}
-2025-09-28 20:01:25 | INFO | {'message': 'I just shared JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 20:01:25', 'category': 'tech', 'sentiment': 0.13, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
-2025-09-28 20:01:30 | INFO | {'message': 'I just saw game! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 20:01:30', 'category': 'gaming', 'sentiment': 0.52, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-28 20:01:35 | INFO | {'message': 'I just found a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:01:35', 'category': 'entertainment', 'sentiment': 0.29, 'keyword_mentioned': 'movie', 'message_length': 37}
-2025-09-28 20:01:40 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 20:01:40', 'category': 'other', 'sentiment': 0.06, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-28 20:01:45 | INFO | {'message': 'I just found recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 20:01:45', 'category': 'food', 'sentiment': 0.81, 'keyword_mentioned': 'recipe', 'message_length': 36}
-2025-09-28 20:01:50 | INFO | {'message': 'I just found a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:01:50', 'category': 'other', 'sentiment': 0.32, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-28 20:01:55 | INFO | {'message': 'I just saw a movie! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:01:55', 'category': 'entertainment', 'sentiment': 0.15, 'keyword_mentioned': 'movie', 'message_length': 33}
-2025-09-28 20:02:00 | INFO | {'message': 'I just saw a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 20:02:00', 'category': 'humor', 'sentiment': 0.04, 'keyword_mentioned': 'meme', 'message_length': 32}
-2025-09-28 20:02:05 | INFO | {'message': 'I just tried game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:02:05', 'category': 'gaming', 'sentiment': 0.38, 'keyword_mentioned': 'game', 'message_length': 34}
-2025-09-28 20:02:10 | WARNING | Producer interrupted by user.
-2025-09-28 20:02:10 | INFO | Producer shutting down.
+2025-09-28 20:16:57 | INFO | {'message': 'I just saw a movie! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:16:57', 'category': 'entertainment', 'sentiment': 0.88, 'keyword_mentioned': 'movie', 'message_length': 33}
+2025-09-28 20:16:59 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:16:59 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:16:59 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:16:59 | INFO |    interval_secs=5
+2025-09-28 20:16:59 | INFO |    last_position=4842
+2025-09-28 20:16:59 | INFO | Reading from live data file at position 4842.
+2025-09-28 20:16:59 | INFO | Processed message for category 'entertainment': I just saw a movie! It was funny....
+2025-09-28 20:16:59 | INFO | Created/verified category table: category_entertainment
+2025-09-28 20:16:59 | INFO | Inserted message into master table and category_entertainment
+2025-09-28 20:17:02 | INFO | {'message': 'I just loved a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 20:17:02', 'category': 'other', 'sentiment': 0.61, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 20:17:04 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:04 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:04 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:04 | INFO |    interval_secs=5
+2025-09-28 20:17:04 | INFO |    last_position=5045
+2025-09-28 20:17:04 | INFO | Reading from live data file at position 5045.
+2025-09-28 20:17:04 | INFO | Processed message for category 'other': I just loved a story! It was weird....
+2025-09-28 20:17:04 | INFO | Created/verified category table: category_other
+2025-09-28 20:17:04 | INFO | Inserted message into master table and category_other
+2025-09-28 20:17:07 | INFO | {'message': 'I just tried a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 20:17:07', 'category': 'humor', 'sentiment': 0.19, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-28 20:17:09 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:09 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:09 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:09 | INFO |    interval_secs=5
+2025-09-28 20:17:09 | INFO |    last_position=5242
+2025-09-28 20:17:09 | INFO | Reading from live data file at position 5242.
+2025-09-28 20:17:09 | INFO | Processed message for category 'humor': I just tried a meme! It was boring....
+2025-09-28 20:17:09 | INFO | Created/verified category table: category_humor
+2025-09-28 20:17:09 | INFO | Inserted message into master table and category_humor
+2025-09-28 20:17:12 | INFO | {'message': 'I just loved a story! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 20:17:12', 'category': 'other', 'sentiment': 0.58, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 20:17:14 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:14 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:14 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:14 | INFO |    interval_secs=5
+2025-09-28 20:17:14 | INFO |    last_position=5438
+2025-09-28 20:17:14 | INFO | Reading from live data file at position 5438.
+2025-09-28 20:17:14 | INFO | Processed message for category 'other': I just loved a story! It was funny....
+2025-09-28 20:17:14 | INFO | Created/verified category table: category_other
+2025-09-28 20:17:14 | INFO | Inserted message into master table and category_other
+2025-09-28 20:17:17 | INFO | {'message': 'I just found Python! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 20:17:17', 'category': 'tech', 'sentiment': 0.07, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-28 20:17:19 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:19 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:19 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:19 | INFO |    interval_secs=5
+2025-09-28 20:17:19 | INFO |    last_position=5635
+2025-09-28 20:17:19 | INFO | Reading from live data file at position 5635.
+2025-09-28 20:17:19 | INFO | Processed message for category 'tech': I just found Python! It was amazing....
+2025-09-28 20:17:19 | INFO | Created/verified category table: category_tech
+2025-09-28 20:17:19 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:17:22 | INFO | {'message': 'I just found recipe! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 20:17:22', 'category': 'food', 'sentiment': 0.49, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-28 20:17:24 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:24 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:24 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:24 | INFO |    interval_secs=5
+2025-09-28 20:17:24 | INFO |    last_position=5835
+2025-09-28 20:17:24 | INFO | Reading from live data file at position 5835.
+2025-09-28 20:17:24 | INFO | Processed message for category 'food': I just found recipe! It was boring....
+2025-09-28 20:17:24 | INFO | Created/verified category table: category_food
+2025-09-28 20:17:24 | INFO | Inserted message into master table and category_food
+2025-09-28 20:17:27 | INFO | {'message': 'I just tried a meme! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:17:27', 'category': 'humor', 'sentiment': 0.2, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 20:17:29 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:29 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:29 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:29 | INFO |    interval_secs=5
+2025-09-28 20:17:29 | INFO |    last_position=6032
+2025-09-28 20:17:29 | INFO | Reading from live data file at position 6032.
+2025-09-28 20:17:29 | INFO | Processed message for category 'humor': I just tried a meme! It was weird....
+2025-09-28 20:17:29 | INFO | Created/verified category table: category_humor
+2025-09-28 20:17:29 | INFO | Inserted message into master table and category_humor
+2025-09-28 20:17:32 | INFO | {'message': 'I just tried travel! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:17:32', 'category': 'travel', 'sentiment': 0.59, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-28 20:17:34 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:34 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:34 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:34 | INFO |    interval_secs=5
+2025-09-28 20:17:34 | INFO |    last_position=6230
+2025-09-28 20:17:34 | INFO | Reading from live data file at position 6230.
+2025-09-28 20:17:34 | INFO | Processed message for category 'travel': I just tried travel! It was amazing....
+2025-09-28 20:17:34 | INFO | Created/verified category table: category_travel
+2025-09-28 20:17:34 | INFO | Inserted message into master table and category_travel
+2025-09-28 20:17:37 | INFO | {'message': 'I just shared a story! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 20:17:37', 'category': 'other', 'sentiment': 0.63, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-28 20:17:39 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:39 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:39 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:39 | INFO |    interval_secs=5
+2025-09-28 20:17:39 | INFO |    last_position=6430
+2025-09-28 20:17:39 | INFO | Reading from live data file at position 6430.
+2025-09-28 20:17:39 | INFO | Processed message for category 'other': I just shared a story! It was exciting....
+2025-09-28 20:17:39 | INFO | Created/verified category table: category_other
+2025-09-28 20:17:39 | INFO | Inserted message into master table and category_other
+2025-09-28 20:17:42 | INFO | {'message': 'I just found a meme! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:17:42', 'category': 'humor', 'sentiment': 0.08, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-28 20:17:44 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:44 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:44 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:44 | INFO |    interval_secs=5
+2025-09-28 20:17:44 | INFO |    last_position=6633
+2025-09-28 20:17:44 | INFO | Reading from live data file at position 6633.
+2025-09-28 20:17:44 | INFO | Processed message for category 'humor': I just found a meme! It was amazing....
+2025-09-28 20:17:44 | INFO | Created/verified category table: category_humor
+2025-09-28 20:17:44 | INFO | Inserted message into master table and category_humor
+2025-09-28 20:17:47 | INFO | {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 20:17:47', 'category': 'tech', 'sentiment': 0.98, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-28 20:17:49 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:49 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:49 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:49 | INFO |    interval_secs=5
+2025-09-28 20:17:49 | INFO |    last_position=6830
+2025-09-28 20:17:49 | INFO | Reading from live data file at position 6830.
+2025-09-28 20:17:49 | INFO | Processed message for category 'tech': I just shared JavaScript! It was amazing....
+2025-09-28 20:17:49 | INFO | Created/verified category table: category_tech
+2025-09-28 20:17:49 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:17:52 | INFO | {'message': 'I just loved a trick! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 20:17:52', 'category': 'other', 'sentiment': 0.54, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 20:17:54 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:17:54 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:17:54 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:17:54 | INFO |    interval_secs=5
+2025-09-28 20:17:54 | INFO |    last_position=7039
+2025-09-28 20:17:54 | INFO | Reading from live data file at position 7039.
+2025-09-28 20:17:54 | INFO | Processed message for category 'other': I just loved a trick! It was funny....
+2025-09-28 20:17:54 | INFO | Created/verified category table: category_other
+2025-09-28 20:17:55 | INFO | Inserted message into master table and category_other
+2025-09-28 20:17:57 | INFO | {'message': 'I just shared an app! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:17:57', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-28 20:18:00 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:00 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:00 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:00 | INFO |    interval_secs=5
+2025-09-28 20:18:00 | INFO |    last_position=7236
+2025-09-28 20:18:00 | INFO | Reading from live data file at position 7236.
+2025-09-28 20:18:00 | INFO | Processed message for category 'other': I just shared an app! It was amazing....
+2025-09-28 20:18:00 | INFO | Created/verified category table: category_other
+2025-09-28 20:18:00 | INFO | Inserted message into master table and category_other
+2025-09-28 20:18:02 | INFO | {'message': 'I just loved a movie! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 20:18:02', 'category': 'entertainment', 'sentiment': 0.45, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-28 20:18:05 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:05 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:05 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:05 | INFO |    interval_secs=5
+2025-09-28 20:18:05 | INFO |    last_position=7439
+2025-09-28 20:18:05 | INFO | Reading from live data file at position 7439.
+2025-09-28 20:18:05 | INFO | Processed message for category 'entertainment': I just loved a movie! It was exciting....
+2025-09-28 20:18:05 | INFO | Created/verified category table: category_entertainment
+2025-09-28 20:18:05 | INFO | Inserted message into master table and category_entertainment
+2025-09-28 20:18:07 | INFO | {'message': 'I just tried JavaScript! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 20:18:07', 'category': 'tech', 'sentiment': 0.19, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 20:18:10 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:10 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:10 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:10 | INFO |    interval_secs=5
+2025-09-28 20:18:10 | INFO |    last_position=7649
+2025-09-28 20:18:10 | INFO | Reading from live data file at position 7649.
+2025-09-28 20:18:10 | INFO | Processed message for category 'tech': I just tried JavaScript! It was funny....
+2025-09-28 20:18:10 | INFO | Created/verified category table: category_tech
+2025-09-28 20:18:10 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:18:12 | INFO | {'message': 'I just shared recipe! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 20:18:12', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-28 20:18:15 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:15 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:15 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:15 | INFO |    interval_secs=5
+2025-09-28 20:18:15 | INFO |    last_position=7855
+2025-09-28 20:18:15 | INFO | Reading from live data file at position 7855.
+2025-09-28 20:18:15 | INFO | Processed message for category 'food': I just shared recipe! It was amazing....
+2025-09-28 20:18:15 | INFO | Created/verified category table: category_food
+2025-09-28 20:18:15 | INFO | Inserted message into master table and category_food
+2025-09-28 20:18:17 | INFO | {'message': 'I just loved a movie! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 20:18:17', 'category': 'entertainment', 'sentiment': 0.53, 'keyword_mentioned': 'movie', 'message_length': 36}
+2025-09-28 20:18:20 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:20 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:20 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:20 | INFO |    interval_secs=5
+2025-09-28 20:18:20 | INFO |    last_position=8054
+2025-09-28 20:18:20 | INFO | Reading from live data file at position 8054.
+2025-09-28 20:18:20 | INFO | Processed message for category 'entertainment': I just loved a movie! It was boring....
+2025-09-28 20:18:20 | INFO | Created/verified category table: category_entertainment
+2025-09-28 20:18:20 | INFO | Inserted message into master table and category_entertainment
+2025-09-28 20:18:22 | INFO | {'message': 'I just tried a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 20:18:22', 'category': 'other', 'sentiment': 0.02, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 20:18:25 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:25 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:25 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:25 | INFO |    interval_secs=5
+2025-09-28 20:18:25 | INFO |    last_position=8260
+2025-09-28 20:18:25 | INFO | Reading from live data file at position 8260.
+2025-09-28 20:18:25 | INFO | Processed message for category 'other': I just tried a story! It was exciting....
+2025-09-28 20:18:25 | INFO | Created/verified category table: category_other
+2025-09-28 20:18:25 | INFO | Inserted message into master table and category_other
+2025-09-28 20:18:27 | INFO | {'message': 'I just found a story! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 20:18:27', 'category': 'other', 'sentiment': 0.39, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 20:18:30 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:30 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:30 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:30 | INFO |    interval_secs=5
+2025-09-28 20:18:30 | INFO |    last_position=8460
+2025-09-28 20:18:30 | INFO | Reading from live data file at position 8460.
+2025-09-28 20:18:30 | INFO | Processed message for category 'other': I just found a story! It was weird....
+2025-09-28 20:18:30 | INFO | Created/verified category table: category_other
+2025-09-28 20:18:30 | INFO | Inserted message into master table and category_other
+2025-09-28 20:18:32 | INFO | {'message': 'I just saw a story! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 20:18:32', 'category': 'other', 'sentiment': 0.88, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-28 20:18:35 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:35 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:35 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:35 | INFO |    interval_secs=5
+2025-09-28 20:18:35 | INFO |    last_position=8657
+2025-09-28 20:18:35 | INFO | Reading from live data file at position 8657.
+2025-09-28 20:18:35 | INFO | Processed message for category 'other': I just saw a story! It was boring....
+2025-09-28 20:18:35 | INFO | Created/verified category table: category_other
+2025-09-28 20:18:35 | INFO | Inserted message into master table and category_other
+2025-09-28 20:18:37 | INFO | {'message': 'I just loved recipe! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:18:37', 'category': 'food', 'sentiment': 0.38, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-28 20:18:40 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:40 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:40 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:40 | INFO |    interval_secs=5
+2025-09-28 20:18:40 | INFO |    last_position=8855
+2025-09-28 20:18:40 | INFO | Reading from live data file at position 8855.
+2025-09-28 20:18:40 | INFO | Processed message for category 'food': I just loved recipe! It was funny....
+2025-09-28 20:18:40 | INFO | Created/verified category table: category_food
+2025-09-28 20:18:40 | INFO | Inserted message into master table and category_food
+2025-09-28 20:18:42 | INFO | {'message': 'I just shared a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 20:18:42', 'category': 'other', 'sentiment': 0.74, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 20:18:45 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:45 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:45 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:45 | INFO |    interval_secs=5
+2025-09-28 20:18:45 | INFO |    last_position=9051
+2025-09-28 20:18:45 | INFO | Reading from live data file at position 9051.
+2025-09-28 20:18:45 | INFO | Processed message for category 'other': I just shared a story! It was weird....
+2025-09-28 20:18:45 | INFO | Created/verified category table: category_other
+2025-09-28 20:18:45 | INFO | Inserted message into master table and category_other
+2025-09-28 20:18:47 | INFO | {'message': 'I just found a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:18:47', 'category': 'entertainment', 'sentiment': 0.23, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-28 20:18:50 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:50 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:50 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:50 | INFO |    interval_secs=5
+2025-09-28 20:18:50 | INFO |    last_position=9249
+2025-09-28 20:18:50 | INFO | Reading from live data file at position 9249.
+2025-09-28 20:18:50 | INFO | Processed message for category 'entertainment': I just found a movie! It was amazing....
+2025-09-28 20:18:50 | INFO | Created/verified category table: category_entertainment
+2025-09-28 20:18:50 | INFO | Inserted message into master table and category_entertainment
+2025-09-28 20:18:52 | INFO | {'message': 'I just found JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 20:18:52', 'category': 'tech', 'sentiment': 0.78, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 20:18:55 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:18:55 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:18:55 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:18:55 | INFO |    interval_secs=5
+2025-09-28 20:18:55 | INFO |    last_position=9456
+2025-09-28 20:18:55 | INFO | Reading from live data file at position 9456.
+2025-09-28 20:18:55 | INFO | Processed message for category 'tech': I just found JavaScript! It was funny....
+2025-09-28 20:18:55 | INFO | Created/verified category table: category_tech
+2025-09-28 20:18:55 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:18:57 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 20:18:57', 'category': 'other', 'sentiment': 0.73, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-28 20:19:00 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:00 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:00 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:00 | INFO |    interval_secs=5
+2025-09-28 20:19:00 | INFO |    last_position=9660
+2025-09-28 20:19:00 | INFO | Reading from live data file at position 9660.
+2025-09-28 20:19:01 | INFO | Processed message for category 'other': I just saw a story! It was weird....
+2025-09-28 20:19:01 | INFO | Created/verified category table: category_other
+2025-09-28 20:19:01 | INFO | Inserted message into master table and category_other
+2025-09-28 20:19:02 | INFO | {'message': 'I just shared game! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 20:19:02', 'category': 'gaming', 'sentiment': 0.37, 'keyword_mentioned': 'game', 'message_length': 36}
+2025-09-28 20:19:06 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:06 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:06 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:06 | INFO |    interval_secs=5
+2025-09-28 20:19:06 | INFO |    last_position=9855
+2025-09-28 20:19:06 | INFO | Reading from live data file at position 9855.
+2025-09-28 20:19:06 | INFO | Processed message for category 'gaming': I just shared game! It was exciting....
+2025-09-28 20:19:06 | INFO | Created/verified category table: category_gaming
+2025-09-28 20:19:06 | INFO | Inserted message into master table and category_gaming
+2025-09-28 20:19:07 | INFO | {'message': 'I just loved Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:19:07', 'category': 'tech', 'sentiment': 0.16, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-28 20:19:11 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:11 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:11 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:11 | INFO |    interval_secs=5
+2025-09-28 20:19:11 | INFO |    last_position=10055
+2025-09-28 20:19:11 | INFO | Reading from live data file at position 10055.
+2025-09-28 20:19:11 | INFO | Processed message for category 'tech': I just loved Python! It was amazing....
+2025-09-28 20:19:11 | INFO | Created/verified category table: category_tech
+2025-09-28 20:19:11 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:19:12 | INFO | {'message': 'I just tried Python! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 20:19:12', 'category': 'tech', 'sentiment': 0.66, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-28 20:19:16 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:16 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:16 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:16 | INFO |    interval_secs=5
+2025-09-28 20:19:16 | INFO |    last_position=10253
+2025-09-28 20:19:16 | INFO | Reading from live data file at position 10253.
+2025-09-28 20:19:16 | INFO | Processed message for category 'tech': I just tried Python! It was amazing....
+2025-09-28 20:19:16 | INFO | Created/verified category table: category_tech
+2025-09-28 20:19:16 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:19:17 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 20:19:17', 'category': 'entertainment', 'sentiment': 0.04, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-28 20:19:21 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:21 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:21 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:21 | INFO |    interval_secs=5
+2025-09-28 20:19:21 | INFO |    last_position=10451
+2025-09-28 20:19:21 | INFO | Reading from live data file at position 10451.
+2025-09-28 20:19:21 | INFO | Processed message for category 'entertainment': I just found a movie! It was exciting....
+2025-09-28 20:19:21 | INFO | Created/verified category table: category_entertainment
+2025-09-28 20:19:21 | INFO | Inserted message into master table and category_entertainment
+2025-09-28 20:19:22 | INFO | {'message': 'I just found game! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:19:22', 'category': 'gaming', 'sentiment': 0.25, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-28 20:19:26 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:26 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:26 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:26 | INFO |    interval_secs=5
+2025-09-28 20:19:26 | INFO |    last_position=10659
+2025-09-28 20:19:26 | INFO | Reading from live data file at position 10659.
+2025-09-28 20:19:26 | INFO | Processed message for category 'gaming': I just found game! It was boring....
+2025-09-28 20:19:26 | INFO | Created/verified category table: category_gaming
+2025-09-28 20:19:26 | INFO | Inserted message into master table and category_gaming
+2025-09-28 20:19:27 | INFO | {'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 20:19:27', 'category': 'tech', 'sentiment': 0.23, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 20:19:31 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:31 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:31 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:31 | INFO |    interval_secs=5
+2025-09-28 20:19:31 | INFO |    last_position=10858
+2025-09-28 20:19:31 | INFO | Reading from live data file at position 10858.
+2025-09-28 20:19:31 | INFO | Processed message for category 'tech': I just found Python! It was boring....
+2025-09-28 20:19:31 | INFO | Created/verified category table: category_tech
+2025-09-28 20:19:31 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:19:32 | INFO | {'message': 'I just shared a story! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:19:32', 'category': 'other', 'sentiment': 0.77, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 20:19:36 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:36 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:36 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:36 | INFO |    interval_secs=5
+2025-09-28 20:19:36 | INFO |    last_position=11055
+2025-09-28 20:19:36 | INFO | Reading from live data file at position 11055.
+2025-09-28 20:19:36 | INFO | Processed message for category 'other': I just shared a story! It was funny....
+2025-09-28 20:19:36 | INFO | Created/verified category table: category_other
+2025-09-28 20:19:36 | INFO | Inserted message into master table and category_other
+2025-09-28 20:19:37 | INFO | {'message': 'I just saw a story! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:19:37', 'category': 'other', 'sentiment': 0.64, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-28 20:19:41 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:41 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:41 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:41 | INFO |    interval_secs=5
+2025-09-28 20:19:41 | INFO |    last_position=11253
+2025-09-28 20:19:41 | INFO | Reading from live data file at position 11253.
+2025-09-28 20:19:41 | INFO | Processed message for category 'other': I just saw a story! It was funny....
+2025-09-28 20:19:41 | INFO | Created/verified category table: category_other
+2025-09-28 20:19:41 | INFO | Inserted message into master table and category_other
+2025-09-28 20:19:42 | INFO | {'message': 'I just saw an app! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 20:19:42', 'category': 'other', 'sentiment': 0.74, 'keyword_mentioned': 'other', 'message_length': 32}
+2025-09-28 20:19:46 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:46 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:46 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:46 | INFO |    interval_secs=5
+2025-09-28 20:19:46 | INFO |    last_position=11448
+2025-09-28 20:19:46 | INFO | Reading from live data file at position 11448.
+2025-09-28 20:19:46 | INFO | Processed message for category 'other': I just saw an app! It was weird....
+2025-09-28 20:19:46 | INFO | Created/verified category table: category_other
+2025-09-28 20:19:46 | INFO | Inserted message into master table and category_other
+2025-09-28 20:19:47 | INFO | {'message': 'I just saw recipe! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:19:47', 'category': 'food', 'sentiment': 0.08, 'keyword_mentioned': 'recipe', 'message_length': 32}
+2025-09-28 20:19:51 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:51 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:51 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:51 | INFO |    interval_secs=5
+2025-09-28 20:19:51 | INFO |    last_position=11646
+2025-09-28 20:19:51 | INFO | Reading from live data file at position 11646.
+2025-09-28 20:19:51 | INFO | Processed message for category 'food': I just saw recipe! It was funny....
+2025-09-28 20:19:51 | INFO | Created/verified category table: category_food
+2025-09-28 20:19:51 | INFO | Inserted message into master table and category_food
+2025-09-28 20:19:52 | INFO | {'message': 'I just tried game! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 20:19:52', 'category': 'gaming', 'sentiment': 0.98, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-28 20:19:56 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:19:56 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:19:56 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:19:56 | INFO |    interval_secs=5
+2025-09-28 20:19:56 | INFO |    last_position=11840
+2025-09-28 20:19:56 | INFO | Reading from live data file at position 11840.
+2025-09-28 20:19:57 | INFO | Processed message for category 'gaming': I just tried game! It was funny....
+2025-09-28 20:19:57 | INFO | Created/verified category table: category_gaming
+2025-09-28 20:19:57 | INFO | Inserted message into master table and category_gaming
+2025-09-28 20:19:57 | INFO | {'message': 'I just found Python! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 20:19:57', 'category': 'tech', 'sentiment': 0.69, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-28 20:20:02 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:20:02 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:20:02 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:20:02 | INFO |    interval_secs=5
+2025-09-28 20:20:02 | INFO |    last_position=12034
+2025-09-28 20:20:02 | INFO | Reading from live data file at position 12034.
+2025-09-28 20:20:02 | INFO | Processed message for category 'tech': I just found Python! It was weird....
+2025-09-28 20:20:02 | INFO | Created/verified category table: category_tech
+2025-09-28 20:20:02 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:20:02 | INFO | {'message': 'I just loved a trick! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 20:20:02', 'category': 'other', 'sentiment': 0.05, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 20:20:07 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:20:07 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:20:07 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:20:07 | INFO |    interval_secs=5
+2025-09-28 20:20:07 | INFO |    last_position=12232
+2025-09-28 20:20:07 | INFO | Reading from live data file at position 12232.
+2025-09-28 20:20:07 | INFO | Processed message for category 'other': I just loved a trick! It was exciting....
+2025-09-28 20:20:07 | INFO | Created/verified category table: category_other
+2025-09-28 20:20:07 | INFO | Inserted message into master table and category_other
+2025-09-28 20:20:07 | INFO | {'message': 'I just shared Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 20:20:07', 'category': 'tech', 'sentiment': 0.15, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-28 20:20:12 | INFO | Called consume_messages_from_file() with categorization focus:
+2025-09-28 20:20:12 | INFO |    live_data_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/project_live.json')
+2025-09-28 20:20:12 | INFO |    db_path=WindowsPath('C:/Projects/buzzline-05-gbogbo/data/buzz.sqlite')
+2025-09-28 20:20:12 | INFO |    interval_secs=5
+2025-09-28 20:20:12 | INFO |    last_position=12432
+2025-09-28 20:20:12 | INFO | Reading from live data file at position 12432.
+2025-09-28 20:20:12 | INFO | Processed message for category 'tech': I just shared Python! It was boring....
+2025-09-28 20:20:12 | INFO | Created/verified category table: category_tech
+2025-09-28 20:20:12 | INFO | Inserted message into master table and category_tech
+2025-09-28 20:20:12 | INFO | {'message': 'I just saw a meme! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 20:20:12', 'category': 'humor', 'sentiment': 0.12, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 20:20:16 | WARNING | Categorization Consumer interrupted by user.
+2025-09-28 20:20:16 | INFO | === FINAL CATEGORY ANALYTICS ===
+2025-09-28 20:20:16 | INFO | Category 'other': 23 total messages, avg sentiment: 0.59, 4 unique authors, latest: 2025-09-28 20:20:02
+2025-09-28 20:20:16 | INFO | Category 'tech': 15 total messages, avg sentiment: 0.45, 4 unique authors, latest: 2025-09-28 20:20:07
+2025-09-28 20:20:16 | INFO | Category 'entertainment': 9 total messages, avg sentiment: 0.48, 4 unique authors, latest: 2025-09-28 20:19:17
+2025-09-28 20:20:16 | INFO | Category 'food': 5 total messages, avg sentiment: 0.26, 2 unique authors, latest: 2025-09-28 20:19:47
+2025-09-28 20:20:16 | INFO | Category 'humor': 5 total messages, avg sentiment: 0.26, 3 unique authors, latest: 2025-09-28 20:17:42
+2025-09-28 20:20:16 | INFO | Category 'gaming': 4 total messages, avg sentiment: 0.45, 3 unique authors, latest: 2025-09-28 20:19:52
+2025-09-28 20:20:16 | INFO | Category 'travel': 2 total messages, avg sentiment: 0.79, 2 unique authors, latest: 2025-09-28 20:17:32
+2025-09-28 20:20:16 | INFO | ===============================
+2025-09-28 20:20:16 | INFO | TRY/FINALLY: Categorization Consumer shutting down.
+2025-09-28 20:20:17 | INFO | {'message': 'I just loved game! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 20:20:17', 'category': 'gaming', 'sentiment': 0.87, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-28 20:20:20 | WARNING | Producer interrupted by user.
+2025-09-28 20:20:20 | INFO | Producer shutting down.
